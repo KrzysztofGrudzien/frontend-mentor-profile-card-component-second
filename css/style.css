@@ -116,6 +116,10 @@ a:active {
     width: 100%;
 }
 
+.card__name {
+    font-size: 1.125rem;
+}
+
 .card__name > strong {
     color: var(--color-text);
     display: inline-block;
