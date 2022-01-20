@@ -1,0 +1,73 @@
+:root {
+    /* ------- COLORS ------- */
+
+    --color-bg: hsl(185, 75%, 39%);
+    --color-bg-desaturate: hsl(179, 62%, 43%);
+    --color-text: hsl(229, 23%, 23%);
+    --color-text-light: hsl(227, 10%, 46%);
+    --color-line: hsl(0, 0%, 59%);
+    --color-bg-card: hsl(0, 0%, 100%);
+
+    /* ------- RADIUS ------- */
+    --radius-15: 1.5em;
+}
+
+/* ------- BASIC ------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    align-items: center;
+    background: var(--color-bg);
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', 'Arial', 'Helvetica', sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/* ------- CARD ------- */
+
+/* ------- DESKTOP ------- */
